@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "@mdx-deck/basic-template",
+  "version": "2.0.9",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck"
+  },
+  "devDependencies": {
+    "mdx-deck": "^2.0.9"
+  },
+  "dependencies": {
+    "@emotion/core": "10.0.10",
+    "code-surfer": "vlsi/code-surfer#mdx2",
+    "file-loader": "3.0.1",
+    "mdx-deck-code-surfer": "vlsi/code-surfer#mdx2"
+  }
+}
